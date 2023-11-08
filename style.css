@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+}
+
+.social-icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(0, 153, 255);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: 0.5s ease;
+}
+
+.social-icon a:hover {
+  background: rgb(0, 153, 255);
+  color: #1f242d;
+  box-shadow: 0 0 20px, 0 0 40px;
+}
